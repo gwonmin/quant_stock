@@ -1,2 +1,2 @@
 # quant_stock
-pip install pykrx, tabulate, bs4
+pip install pykrx tabulate bs4
