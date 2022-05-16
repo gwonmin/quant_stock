@@ -18,7 +18,7 @@ today = dt.datetime.now()
 stock_code_KOSPI = stock.get_market_ticker_list(date = "%d%02d%02d"%(
     today.year, today.month, today.day), market = "KOSPI")
 
-stock_value = stock.get_market_fundamental_by_ticker(date = 20210917, market = "ALL")
+stock_value = stock.get_market_fundamental_by_ticker(date = "20220517", market = "ALL")
 
 
 
